@@ -60,12 +60,12 @@
 // -----------------------------------------------------------------------------------------
 // | ESC  |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
 // | STB  | BTC | BT0 | BT1 | BT2 | BT3 |   |  -  |  =  |  {  |  }  | "|" |  `   |
-// | CTRL |     |     |     | BT4 | BT5 |   |  _  |  +  |  [  |  ]  |  \  |  ~   |
+// | CTRL |     |     | REST| BT4 | BT5 |   |  _  |  +  |  [  |  ]  |  \  |  ~   |
 //                    | GUI |     | ENT |   | SPC |     | ALT |
                         bindings = <
    &kp ESC       &kp EXCL   &kp AT       &kp HASH     &kp DLLR     &kp PRCNT         &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
    &mt LSHFT TAB &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp PIPE &kp GRAVE
-   &kp LCTRL     &trans     &trans       &trans       &bt BT_SEL 4 &bt BT_SEL 5      &trans    &trans    &trans          &trans   &kp BSLH &kp TILDE
+   &kp LCTRL     &trans     &trans       &reset       &bt BT_SEL 4 &bt BT_SEL 5      &trans    &trans    &trans          &trans   &kp BSLH &kp TILDE
                                                       &kp LGUI &trans &kp RET        &kp SPACE &trans &kp RALT
                         >;
                 };
